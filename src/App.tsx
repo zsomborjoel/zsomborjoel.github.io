@@ -37,7 +37,7 @@ export default function App(): JSX.Element {
                         <h2 className="py-2 text-5xl font-medium text-teal-600 dark:text-teal-400">
                             Zsombor Joel Gyurkovics
                         </h2>
-                        <h3 className="py-2 text-2xl dark:text-white">Software developer</h3>
+                        <h3 className="py-2 text-2xl dark:text-white">Software Developer</h3>
                         <p className="mx-auto max-w-lg py-5 text-lg leading-8 text-gray-800 dark:text-gray-200 md:text-xl">
                             Tech enthusiast who is continuously working on his skill set. My passions are scaleable
                             Backends, user friendly UI design and maintanable Cloud computing. Having sectoral knowledge
