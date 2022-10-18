@@ -16,7 +16,7 @@ export default function App(): JSX.Element {
                 <section className="min-h-screen">
                     <nav className=" mb-12 flex justify-between py-10 dark:text-white">
                         <h1 className="font-serif text-xl uppercase">Fullstacklife</h1>
-                        <ul className="flex items-center">
+                        <ul className="ml-8 flex items-center">
                             <li>
                                 <BsFillMoonStarsFill
                                     onClick={() => setDarkMode(!darkMode)}
