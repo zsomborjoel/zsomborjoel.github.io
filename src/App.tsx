@@ -12,11 +12,11 @@ export default function App(): JSX.Element {
                 <title>Zsombor Joel Gyurkovics page</title>
             </head>
 
-            <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+            <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
                 <section className="min-h-screen">
-                    <nav className=" mb-12 flex justify-between py-10 dark:text-white">
+                    <nav className="mb-12 flex justify-between py-10 dark:text-white">
                         <h1 className="font-serif text-xl uppercase">Fullstacklife</h1>
-                        <ul className="ml-8 flex items-center">
+                        <ul className="ml-4 flex items-center">
                             <li>
                                 <BsFillMoonStarsFill
                                     onClick={() => setDarkMode(!darkMode)}
@@ -25,7 +25,7 @@ export default function App(): JSX.Element {
                             </li>
                             <li>
                                 <a
-                                    className="ml-8 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white"
+                                    className="ml-4 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-2 text-white"
                                     href="https://www.linkedin.com/in/zsombor-joel-gyurkovics/"
                                 >
                                     Resume
